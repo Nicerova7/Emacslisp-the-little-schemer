@@ -23,6 +23,7 @@ Here is the [emacs lisp style guide](https://github.com/bbatsov/emacs-lisp-style
 
 Find book [here](https://www.amazon.com/Little-Schemer-Daniel-P-Friedman/dp/0262560992)
 
+![My_little_Schemer](https://github.com/Nicerova7/Emacslisp-my-little-schemer/blob/master/img/mylittle.jpg)
 
 ## Reviews
 
