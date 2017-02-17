@@ -2,7 +2,7 @@
 ### in emacs lisp
 _"Thinking about computing is one of the most exciting things the human mind can do"_.
 
-The Little Schemer is worthy successor and will prove equally popular as texbooks for Scheme courses as well as companion texts for any complete introductory course in Computer Science
+The Little Schemer is worthy successor and will prove equally popular as texbooks for Scheme courses as well as companion texts for any complete introductory course in Computer Science.
 
 
 ## About
