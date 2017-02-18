@@ -17,8 +17,8 @@ Here is the [emacs lisp style guide](https://github.com/bbatsov/emacs-lisp-style
 
 ;; bad
 (format "%s %d"
-	something
-	something-else)
+   something
+   something-else)
 ```
 
 Find book [here](https://www.amazon.com/Little-Schemer-Daniel-P-Friedman/dp/0262560992)
