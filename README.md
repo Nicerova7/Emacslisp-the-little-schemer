@@ -12,8 +12,8 @@ Here is the [emacs lisp style guide](https://github.com/bbatsov/emacs-lisp-style
 ```lisp
 ;; good
 (format "%s %d"
-	something
-	something-else)
+	    something
+	    something-else)
 
 ;; bad
 (format "%s %d"
