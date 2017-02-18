@@ -9,7 +9,7 @@ The Little Schemer is worthy successor and will prove equally popular as texbook
 
 Here is the [emacs lisp style guide](https://github.com/bbatsov/emacs-lisp-style-guide)
 
-```
+```lisp
 ;; good
 (format "%s %d"
 	something
@@ -17,8 +17,8 @@ Here is the [emacs lisp style guide](https://github.com/bbatsov/emacs-lisp-style
 
 ;; bad
 (format "%s %d"
-   something
-   something-else)
+something
+something-else)
 ```
 
 Find book [here](https://www.amazon.com/Little-Schemer-Daniel-P-Friedman/dp/0262560992)
