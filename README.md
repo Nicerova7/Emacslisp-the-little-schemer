@@ -1,4 +1,4 @@
-# My little schemer
+# The little schemer
 ### in emacs lisp
 _"Thinking about computing is one of the most exciting things the human mind can do"_.
 
