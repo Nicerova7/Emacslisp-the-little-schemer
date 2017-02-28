@@ -6,3 +6,9 @@
       (cond ((null l) t)
 	    ((atom (car l)) (lat? (cdr l)))
 	    (t nil))))
+
+
+
+(lat? (a b c))   ; t
+
+(lat? ((a b) c)) ; nil
