@@ -7,4 +7,7 @@
 	    (t (or (eq? (car lat) a)
 		   (member? a (cdr lat)))))))
 
+
+(member? 'a '(a b c))  ; t
+(member? 'c '(a b d))  ; nil
 	     

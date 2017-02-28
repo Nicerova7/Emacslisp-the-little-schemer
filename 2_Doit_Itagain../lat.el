@@ -9,6 +9,6 @@
 
 
 
-(lat? (a b c))   ; t
+(lat? '(a b c))   ; t
 
-(lat? ((a b) c)) ; nil
+(lat? '((a b) c)) ; nil
