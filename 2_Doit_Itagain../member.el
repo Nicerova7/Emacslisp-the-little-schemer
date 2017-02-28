@@ -10,4 +10,9 @@
 
 (member? 'a '(a b c))  ; t
 (member? 'c '(a b d))  ; nil
+
+
+;; Also we can work with 'every pattern'....
+
+; ...(and (listp x) (every (atom?) x))
 	     
