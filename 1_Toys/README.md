@@ -1,6 +1,6 @@
 ## Fundamental Functions
 
-> In this case : __Car__ and __cdr__.
+> In this case : __Car__ , __cdr__ and __cons__.
 
 ### Car
 
@@ -31,7 +31,20 @@ returns a report of what the second and subsequent elements are.
 
 **__Remember The second rule__**.
 
+### Cons
+
+The __cons__ is used to constructs lists. It takes two argumentos ,the second
+argument must be a list.
+
+```lisp
+
+(cons 'a '(b c))  ; (a b c)
+
+```
+
 
 ### References
 
 http://www.gnu.org/software/emacs/manual/html_node/eintr/car-_006-cdr.html#car-_0026-cdr
+
+http://www.gnu.org/software/emacs/manual/html_node/eintr/cons.html#cons
