@@ -2,13 +2,12 @@
 
 ;; Review 1_Toys , there is some information from 'Cons'.
 
-(defun rember
-    (lambda (a lat)
+(defun rember (a lat)
        (cond ((null lat) '())
 	     ((eq? a (car lat)) (cdr lat))
 	     (t (cons (car lat)
 		      (rember  a
-                               (cdr lat)))))))
+                               (cdr lat))))))
 
 
 (rember 'a '(a b c))    ; (b c)
