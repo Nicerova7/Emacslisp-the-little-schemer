@@ -2,12 +2,11 @@
 
 ;; Review the last codes and its conditions.
 
-(defun subst
-    (lambda (new old lat)
+(defun subst (new old lat)
       (cond ((null lat) '())
 	    ((eq? (car lat) old) (cons new (cdr lat)))
 	    (t (cons (car lat)
-		     (subst new old (cdr lat)))))))
+		     (subst new old (cdr lat))))))
 
 
 (subst 'a 'b '(a b c))
