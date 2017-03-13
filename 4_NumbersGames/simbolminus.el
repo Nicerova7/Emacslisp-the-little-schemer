@@ -2,10 +2,9 @@
 
 ;; Remember we consider only nonnegative numbers here.
 
-(defun simbolminus
-    (lambda (a b)
+(defun simbolminus (a b)
       (cond ((= b 0) a)
-	    (t (sub1 (simbolminus a (sub1 b)))))))
+	    (t (sub1 (simbolminus a (sub1 b))))))
 
 
 (simbolminus 14 7)  ; 7
