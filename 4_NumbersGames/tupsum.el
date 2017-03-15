@@ -3,7 +3,8 @@
 ;; Remember the last functions
 
 (defun tup+ (tupa tupb)
-  (cond ((and (null tupa) (null tupb)) '())
+  (cond ((null tupa) tupb)
+	((null tupb) tupa)
 	(t (cons (simbolsum (car tupa) (car tupb))
 		 (tup+ (cdr tupa) (cdr tupb))))))
 
