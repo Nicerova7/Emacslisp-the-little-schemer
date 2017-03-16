@@ -76,5 +76,5 @@ Find book [here](https://www.amazon.com/Little-Schemer-Daniel-P-Friedman/dp/0262
 
 ## Reviews
 
-"I learned more about LISP from this book than I have from any of the other LISP books I've read over the years... While other books will tell you the mechanis of LISP, they can leave you largely ninformed on the style of problem-solving for which LISP is optimized"
+"I learned more about LISP from this book than I have from any of the other LISP books I've read over the years... While other books will tell you the mechanis of LISP, they can leave you largely uninformed on the style of problem-solving for which LISP is optimized"
    	   	      --**Gregg Williams _, byte_**.
