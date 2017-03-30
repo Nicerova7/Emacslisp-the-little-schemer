@@ -6,3 +6,6 @@
   (cond ((atom aexp) (numberp aexp))
 	(t (and (numbered? (car aexp))
 		(numbered? (car (cdr (cdr aexp))))))))
+
+(numbered? '(7 + 14)) ;t
+(numbered? '(a + 7))  ;nil
