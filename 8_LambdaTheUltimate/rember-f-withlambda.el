@@ -10,3 +10,4 @@
 		      (funcall (rember-f test?) a (cdr l))))))))
  t)
 
+(funcall (rember-f 'eq) 'hola '(hola como estas)) ; (como estas)
