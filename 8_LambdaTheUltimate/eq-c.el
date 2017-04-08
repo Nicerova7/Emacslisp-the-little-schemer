@@ -1,8 +1,10 @@
 ;; eq?-c Function
 
+(eval
+ '(defun eq?-c (a)
+    (function
+     (lambda (x)
+       (eq x a))))
+ t)
 
-(defun eq?-c (a)
-  (function
-   (lambda (x)
-     (eq x a))))
-
+(funcall (eq?-c 'salad) 'salad) ;t
