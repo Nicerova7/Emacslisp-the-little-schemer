@@ -3,7 +3,7 @@
 (defun atom-to-function (x)
   (cond ((equal x '+) '+)
 	((equal x '*) '*)
-        (t (funcall 'expt))))
+        (t 'expt)))
 
 ;; It's a option 
 
