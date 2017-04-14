@@ -5,11 +5,11 @@
 ;; expon file (simbolexp function)
 
 (defun value (nexp)
-  (cond ((atom aexp) nexp)
+  (cond ((atom nexp) nexp)
 	((eq? (operator nexp) '+)
 	 (+ (value (1st-sub-exp nexp)) (value (2nd-sub-exp nexp))))
-	((eq? (operator aexp) 'x)
+	((eq? (operator nexp) 'x)
 	 (x (value (1st-sub-exp nexp)) (value (2nd-sub-exp nexp))))
 	(t (simbolexp (value (1st-sub-exp nexp))
-		      (value (2nd-sub-exp aexp))))))
+		      (value (2nd-sub-exp nexp))))))
 
