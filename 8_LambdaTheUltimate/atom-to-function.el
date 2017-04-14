@@ -7,4 +7,6 @@
 
 ;; It's a option 
 
+(funcall (atom-to-function '+) 7 14)  ; 21
+(apply (atom-to-function '+) 7 '(14)) ; 21
 
