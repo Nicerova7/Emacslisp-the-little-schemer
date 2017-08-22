@@ -10,7 +10,7 @@
 	(t (multirember&co a
 			   (cdr lat)
 			   (lambda (newlat seen)
-			     (funcall col (cons (car lat) (newlat) (seen))))))))
+			     (funcall col (cons (car lat) newlat) seen))))))
 
 (defun a-friend (x y)
   (null y))
