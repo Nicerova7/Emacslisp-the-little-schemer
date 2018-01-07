@@ -13,3 +13,6 @@
 
 (funcall (insertL-f 'eq) 'a 'z '(a b c z)) ; (a b c a z)
 
+(setq insertL-f-eq (insertL-f 'eq))        ; another form
+(funcall insertL-f-eq 'a 'z '(a b c z))    ; (a b c a z)
+
