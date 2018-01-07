@@ -1,6 +1,7 @@
 ;; yyy is rember !!!
 
-(setq yyy (insert-g 'seqrem))
+(defun yyy (a l)
+  (funcall (insert-g 'seqrem) nil a l))
 
-(funcall yyy 'a 'b '(a b c d e b f)) ; (a c d e b f)
+(yyy 'a '(a b c)) ; (b c)  rember, old friend  !
 
