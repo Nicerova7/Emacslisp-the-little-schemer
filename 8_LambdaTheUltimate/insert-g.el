@@ -13,3 +13,5 @@
 
 (funcall (insert-g 'seqL) 'a 'b '(a c b d f b)) ; (a c a b d f b)
 
+(setq insert-g-seqL (insert-g 'seql))           ; another form
+(funcall insert-g-seqL 'a 'b '(a c b d f b))    ; (a c a b d f b)
