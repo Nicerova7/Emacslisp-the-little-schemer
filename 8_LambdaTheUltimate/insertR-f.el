@@ -12,3 +12,7 @@
 
 
 (funcall (insertR-f 'eq) 'a 'n '(a b c n)) ; (a b c n a)
+
+(setq insertR-f-eq (insertR-f 'eq))
+(funcall insertR-f-eq 'a 'n '(a b c n))    ; (a b c n a)
+
