@@ -11,3 +11,6 @@
  t)
 
 (funcall (rember-f 'eq) 'hola '(hola como estas)) ; (como estas)
+
+(setq rember-f-eq (rember-f 'eq))                 ; another form
+(funcall rember-f-eq 'hola '(hola como estas))    ; (como estas)
