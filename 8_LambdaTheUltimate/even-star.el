@@ -4,7 +4,7 @@
   (= (* (/ n 2) 2) n))
 
 ;; 4 t 
-;; 5 nil  (notee : wrong in 5.0)
+;; 5 nil  (note : wrong in 5.0)
 
 (defun even-star (l)
   (cond ((null l) '())
