@@ -4,7 +4,7 @@
 
 (defun multiinsertLR&co (new oldL oldR lat col)
   (cond ((null lat) (funcall col '() 0 0))
-	((eq (oldL (car lat)) (multiinsertLR&co new
+	((eq (car lat) oldL) (multiinsertLR&co new
 					        oldL
 					        oldR
 					        (cdr lat)
@@ -15,7 +15,7 @@
 							      (add1 L)
 							      R))))))
 	
-	((eq (oldR (car lat)) (multiinsertLR&co new
+	((eq (car lat) oldR) (multiinsertLR&co new
 					        oldL
 					        oldR
 					        (cdr lat)
@@ -31,3 +31,5 @@
 			    lat
 			    (lambda (newlat L R)
 			      (funcall col (cons (car lat) newlat) L R))))))
+
+
