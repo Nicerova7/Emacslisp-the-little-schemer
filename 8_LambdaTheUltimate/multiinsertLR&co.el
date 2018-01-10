@@ -25,10 +25,10 @@
 							                  newlat))
 							      L
 							      (add1 R)))))))
-	(t (multiinserLR&co new
+	(t (multiinsertLR&co new
 			    oldL
 			    oldR
-			    lat
+			    (cdr lat)
 			    (lambda (newlat L R)
 			      (funcall col (cons (car lat) newlat) L R))))))
 
