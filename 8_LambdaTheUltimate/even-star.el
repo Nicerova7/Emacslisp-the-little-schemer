@@ -15,3 +15,5 @@
 	(t (cons (even-star (car l))
 		 (even-star (cdr l))))))
 
+(even-star '((9 1 2 8) 3 10 ((9 9) 7 6) 2)) ; ((2 8) 10 (nil 6) 2)
+                                            ; ((2 8) 10 ('() 6) 2)
