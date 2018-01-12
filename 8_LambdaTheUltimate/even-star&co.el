@@ -18,3 +18,12 @@
 	                 (...))))
 
 
+
+(defun the-last-friend
+    (function
+     (lambda (newl product sum)
+       (cons sum
+	     (cons product
+		   newl)))))
+
+
