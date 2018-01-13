@@ -14,8 +14,8 @@
 				  (funcall col newl
 					   p
 					   (+ (car l) s)))))))
-	(t (even-star&co (car l))
-	                 (...))))
+	(t (even-star&co (car l)
+	                 (...)))))
 
 
 
