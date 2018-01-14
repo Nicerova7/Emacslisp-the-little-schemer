@@ -15,7 +15,12 @@
 					   p
 					   (+ (car l) s)))))))
 	(t (even-star&co (car l)
-	                 (...)))))
+	                 (lambda (al ap as)
+			   (even-start&co (cdr l)
+					  (lambda (dl dp ds)
+					    (funcall col (cons al dl)
+						     (* ap dp)
+						     (+ as ds)))))))))
 
 
 
@@ -25,5 +30,4 @@
        (cons sum
 	     (cons product
 		   newl)))))
-
 
