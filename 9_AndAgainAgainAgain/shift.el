@@ -11,3 +11,8 @@
 (defun build (a b)
   (cons a b))
 
+(defun shift (pair)
+  (build (first (first pair))
+	 (build (second (first pair))
+		(second pair))))
+
