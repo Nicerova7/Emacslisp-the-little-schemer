@@ -20,3 +20,8 @@
 	 (build (second (first pair))
 		(second pair))))
 
+(shift '((a b) c)) ; (a (b c))
+
+(shift '((a b) (c d)) ; (a (b (c d)))
+
+       
