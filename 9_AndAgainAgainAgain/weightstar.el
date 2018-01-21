@@ -5,3 +5,5 @@
 	(t (+ (* (weight* (first pora)) 2)
 	      (weight* (second pora))))))
 
+(weight* '((a b) (c d))) ; 9
+
