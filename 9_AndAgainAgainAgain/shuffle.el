@@ -10,3 +10,4 @@
 	(t (build (first pora)
 		  (shuffle (second pora))))))
 
+(shuffle '(a (b c))) ; (a (b c))
