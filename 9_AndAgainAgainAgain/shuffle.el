@@ -11,3 +11,4 @@
 		  (shuffle (second pora))))))
 
 (shuffle '(a (b c))) ; (a (b c))
+(shuffle '(a b))     ; (a b)
