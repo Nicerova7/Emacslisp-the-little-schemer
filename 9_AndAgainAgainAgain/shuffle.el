@@ -12,3 +12,4 @@
 
 (shuffle '(a (b c))) ; (a (b c))
 (shuffle '(a b))     ; (a b)
+(shuffle '((a b) (c d))) ; The function shuffle isn't total
