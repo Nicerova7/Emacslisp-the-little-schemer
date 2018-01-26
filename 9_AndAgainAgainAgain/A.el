@@ -1,4 +1,4 @@
-;; Ackerman function
+;; Ackermann function
 
 (defun A (n m)
   (cond ((zerop n) (add1 m))
@@ -9,3 +9,4 @@
 (A 1 0) ; 2
 (A 1 1) ; 3
 (A 2 2) ; 7
+
